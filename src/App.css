@@ -1,0 +1,160 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+
+.wrapper {
+  padding: 20px;
+  width: 500px;
+  margin: 10px auto;
+  margin-bottom: 50px;
+  border: 3px solid #eee;
+  font-family: 'Microsoft YaHei';
+  font-size: 14px;
+}
+
+.comment_input {
+  margin-bottom: 10px;
+  background-color: #fff;
+  border: 1px solid #f1f1f1;
+  padding: 20px;
+}
+.comment_top,
+.comment_middle,
+.comment_bottom {
+  display: flex;
+  display: -webkit-flex;
+  margin-bottom: 15px;
+}
+
+.comment_in {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  min-width: 100px;
+  font-size: 14px;
+  display: flex;
+  justify-content: flex-start;
+}
+.wrapper .input_style {
+  -webkit-flex: 5;
+  -ms-flex: 5;
+  flex: 5;
+  display: -webkit-flex;
+  display: flex
+}
+
+textarea {
+  height: 100px;
+}
+
+.input_style .in {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding: 5px;
+  border: 1px solid #e6e6e6;
+  border-radius: 3px;
+  outline: none;
+  resize: none;
+  font-size: 14px;
+}
+
+.comment_bottom {
+  justify-content: flex-end;  
+}
+
+.btn {
+  padding: 5px 10px;
+  width: 80px;
+  border: none;
+  border-radius: 3px;
+  background-color: #00a3cf;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+.comment_list {
+
+}
+
+.comment_item {
+  position: relative;
+  display: -webkit-flex;
+  display: flex;
+  border-bottom: 1px solid #f1f1f1;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  min-height: 50px;
+  
+}
+.comment_time {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+}
+.comment_clear {
+  position: absolute;
+  right: 10px;
+  color: transparent;
+  font-size: 12px;
+  cursor: pointer;
+}
+.comment_item:hover .comment_clear {
+  color: #00a3cf;
+}
+.comment_user {
+  -webkit-flex-shrink: 0;
+  flex-shrink: 0;
+  padding-right: 5px;
+}
+.comment_user > span {
+  color: #00a3cf;
+  font-style: italic;
+}
+.comment_content {
+  margin: 0;
+}
+
+.right-5 {
+  padding-right: 5px;
+}
+
+.lifecycle {
+  height: 120px;
+  line-height: 120px;
+  background-color: skyblue;
+}
+
+code {
+  border: 1px solid #ccc;
+  background: #f9f9f9;
+  padding: 0 2px;
+}
